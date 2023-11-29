@@ -1,0 +1,132 @@
+/*cabeçalho*/
+
+body{
+    background-color: #0052CD;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+
+/*Conteudo principal*/
+main {
+    min-height: 500px;
+}
+
+
+/*banner*/
+#section-banners img {
+    height: 500px;
+}
+
+/*Produtos vendidos*/
+
+#section-vendidos {
+    text-align: center;
+}
+
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10ps;
+}
+
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+#section-vendidos .preco {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Rodapé*/
+
+footer {
+    text-align: center;
+}
+footer p {
+    font-weight: bold;
+    padding: 10px;
+    }
+
+/*Botão Voltar topo*/
+#voltar-topo {
+    position:fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+
+#section-login {
+     margin-top: 100px;
+}
+
+#section-login h1 {
+    text-align: center;
+}
+#section-login input {
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro {
+    padding: 5px;
+    text-align: center;
+    background-color: #0052CD;
+}
+
+#form-cadastrar {
+    padding: 50px;
+    display: none;
+}
+
+.card-body{
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.active{
+    color: white;
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+}
+
+.btn-outline-success{
+    background-color: #000000;
+    border: solid white;
+}
+
+.btn:hover {
+    border: solid #00fa00;
+    background-color: #00fa00; /* Green */
+    color: #000000;
+  }
+
+h2{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
